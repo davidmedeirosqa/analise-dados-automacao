@@ -1,5 +1,6 @@
 1- Importar a base de dados
 Instalação da biblioteca: pip install pandas
+Instalação da biblioteca: pip install openpyxl
 
 2- Visualizar a base de dados
 
