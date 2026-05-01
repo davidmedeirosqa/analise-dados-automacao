@@ -1,0 +1,12 @@
+1- Importar a base de dados
+Instalação da biblioteca: pip install pandas
+
+2- Visualizar a base de dados
+
+3- Faturamento da loja
+
+4- Quantidade de produtos vendidos por loja
+
+5- Ticket médio por produto em cada loja
+
+6- Enviar um e-mail com o relatório
