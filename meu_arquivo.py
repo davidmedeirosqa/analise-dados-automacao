@@ -28,13 +28,13 @@ mail.HTMLBody = f'''
 <p>Segue o relatório de vendas por cada loja.</p
 
 <p>Faturamento:<p/>
-{faturamento.to_html()}
+{faturamento.to_html(formatters={'Valor Final': 'R${:,.2f}'.format})}
 
 <p>Quantidade vendida:</p>
 {quantidade.to_html()}
 
 <p>Ticket médio dos produtos em cada loja:</p>
-{ticket_medio.to_html()}
+{ticket_medio.to_html(formatters={'Ticket Médio': 'R${:,.2f}'.format})}
 
 <p>Qualquer dúvida estou à disposição.</p>
 
